@@ -149,3 +149,19 @@ a {
     flex-direction: row;
     justify-self: flex-end;
 }
+.boton{
+    border: none;
+    background-color: #7B3DAE;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+}
+.boton:hover{
+    background-color: #fff;
+    border: 2px solid #7B3DAE;
+    width: 98px;
+    color: #7B3DAE;
+    cursor: pointer;
+}
