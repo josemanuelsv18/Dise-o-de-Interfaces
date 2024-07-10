@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ticketazo</title>
+        <link rel="stylesheet" href="./estilos/compra.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="menuInicio">
+            <ul class="menuInicioLista">
+                <li class="menuInicioListaElemento"><a href="homePage.html" class="menuElementoLink">Inicio</a>|<a href="#" class="menuElementoLink">Categorias</a></li>
+                <li class="menuInicioListaElemento"><h1 class="titulo">Ticketazo</h1></li>
+                <li class="menuInicioListaElemento"><a href="#" class="menuElementoLink">Iniciar sesion</a>|<a href="#" class="menuElementoLink">Registrarse</a></li>
+            </ul>
+        </header>
+        <div class="cuerpo">
+            <form action="#" class="formulario">
+                <div class="formularioCampo" id="nombre">
+                    <label for="nombre" class="formularioTitulo">Nombre y apellido</label>
+                    <input type="text" class="formularioInput">
+                </div>
+                <div class="formularioCampo" id="correo">
+                    <label for="correo" class="formularioTitulo">Correo Electrónico</label>
+                    <input type="text" class="formularioInput">
+                </div>
+                <div class="formularioCampo" id="telefono">
+                    <label for="telefono" class="formularioTitulo">Numero de telefono</label>
+                    <input type="text" class="formularioInput">
+                </div>
+                <h4 class="formularioEnunciado">Datos de la tarjeta</h4>
+                <div class="formularioCampo" id="tarjeta">
+                    <label for="tarjeta" class="formularioTitulo">Número de la Tarjeta</label>
+                    <input type="text" class="formularioInput">
+                </div>
+                <div class="formularioCampo" id="nombreApellido">
+                    <label for="nombreApellido">Titular de la tarjeta<br>Nombre y apellido</label>
+                    <input type="text" class="formularioInput">
+                </div>
+                <div class="formularioCampo" id="vencimiento">
+                    <label for="fecha" class="formularioTitulo">Vencimiento</label>
+                    <input type="month" class="formularioInput">
+                </div>
+                <div class="formularioCampo" id="CVV">
+                    <label for="CVV" class="formularioTitulo">CVV</label>
+                    <input type="number" name="cantidad" id="cantidad" min="001" max="999" class="formularioInput">
+                </div>
+                
+                <a href="confirmacion.html" class="formularioBoton">Pagar</a> 
+            </form>
+            <div class="info">
+                <div class="cartelera">
+                    <div class="carteleraMarco">
+                        <img src="#" alt="promocional" class="carteleraImagen">
+                    </div>
+                    <h4 class="carteleraTitulo">Comicon</h4>
+                </div>
+                <div class="descripcion">
+                    <p class="descripcionTexto">
+                        Evento: Comicon<br>
+                        Fecha y hora: 12 de julio 4:00 PM<br>
+                        Lugar: Panama Convention Center<br>
+                        Boletos: 2<br>
+                        Tipo: VIP<br>
+                    </p>
+                    <p class="descripcionPrecio">
+                        $7<br>
+                        + ITBMS<br>
+                        $7.49
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>

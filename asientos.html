@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketazo</title>
+    <link rel="stylesheet" href="./estilos/asientos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="menuInicio">
+        <ul class="menuInicioLista">
+            <li class="menuInicioListaElemento"><a href="homePage.html" class="menuElementoLink">Inicio</a>|<a href="#" class="menuElementoLink">Categorias</a></li>
+            <li class="menuInicioListaElemento"><h1 class="titulo">Ticketazo</h1></li>
+            <li class="menuInicioListaElemento"><a href="#" class="menuElementoLink">Iniciar sesion</a>|<a href="#" class="menuElementoLink">Registrarse</a></li>
+        </ul>
+    </header>
+    <div class="cuerpo">
+        <img src="./estilos/recursos/estadio.jpeg" alt="Distribuicion" class="distribuicion">
+        <div class="seleccion">
+            <div class="seleccionPrincipal">
+                <h4 class="seleccionTitulo">Selecciona tu asiento</h4>
+                <ul class="seleccionMenu">
+                    <li class="seleccionMenuElemento"><div><input type="radio" name="opcion" value="sel1"><label for="sel1">Silver</label></div><p>Precio: $50.00</p></li>
+                    <li class="seleccionMenuElemento"><div><input type="radio" name="opcion" id="sel2"><label for="sel2">Area Club 1</label></div><p>Precio: $135.55</p></li>
+                    <li class="seleccionMenuElemento"><div><input type="radio" name="opcion" id="sel3"><label for="sel3">Area Club 2</label></div><p>Precio: $75.00</p></li>
+                    <li class="seleccionMenuElemento"><div><input type="radio" name="opcion" id="sel4"><label for="sel4">Lounge 1</label></div><p>Precio: $155.00</p></li>
+                    <li class="seleccionMenuElemento"><div><input type="radio" name="opcion" id="sel5"><label for="sel5">Lounge 2</label></div><p>Precio: $116.35</p></li>
+                </ul>
+                <div class="cantEntradas">
+                    <div class="entradasInput">
+                        <label for="cantidad">Cantidad: </label>
+                        <input type="number" name="cantidad" id="cantidad" min="1" max="100">  
+                    </div>
+                    <input type="submit" name="enviar" id="enviar">
+                </div>
+                <div class="compra">
+                    <p>Total: $0.00</p>
+                    <a href="compra.html"><button type="button">Continuar</button></a>
+                </div>    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

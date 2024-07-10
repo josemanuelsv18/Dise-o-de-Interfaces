@@ -1,0 +1,151 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+body{
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+/*Header*/
+.menuInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7B3DAE;
+}
+.menuInicioLista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    height: 75px;
+    align-items: center;
+    margin: 0;
+}
+.submenu {
+    display: flex;
+    flex-direction: column;
+}
+.menuInicioListaSubmenu{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.menuInicioListaElemento{
+    color: #fff;
+    font-size: 20px;
+    list-style-type: none;
+    width: 290px;
+}
+.titulo{
+    width: 190px;
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+.menuElementoLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 5px;
+}
+.menuInicioLista,a:hover{
+    font-weight: bold;
+}
+/*Cuerpo*/
+.cuerpo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+}
+.distribuicion{
+    border: solid 3px #7B3DAE;
+    border-radius: 15px;
+    height: 75vh;
+    width: auto;
+}
+.seleccion{
+    border: solid 3px #7B3DAE;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    height: auto;
+}
+.seleccionPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.seleccionTitulo{
+    background-color: #7B3DAE;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 5px 0;
+}
+.seleccionMenu{
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.seleccionMenuElemento{
+    list-style: none;
+    background-color: #7B3DAE;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 120%;
+}
+.cantEntradas{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.entradasInput{
+    margin: 5px 0;
+    border: 2px solid #7B3DAE;
+    border-radius: 10px;
+    padding-left: 5px;
+    width: 30%;
+}
+#cantidad{
+    width: 20%;
+    margin-left: 10px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+}
+.compra{
+    border-top: solid 2px #7B3DAE;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-direction: row;
+    justify-self: flex-end;
+}

@@ -1,0 +1,11 @@
+# Ignorar archivos de imágenes
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+*.webp
+*.ico
