@@ -63,7 +63,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 90%;
+    height: 95vh;
     color: #7B3DAE;
 }
 .formulario{
@@ -152,7 +152,7 @@ a {
 .carteleraImagen{
     padding: 5px;
     border-radius: 10px;
-    width: 25%;
+    height: 35vh;
 }
 .carteleraTitulo{
     font-size: 28px;
