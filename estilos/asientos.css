@@ -6,9 +6,12 @@
 }
 body{
     margin: 0;
-    background: rgb(102,83,125);
-    background: linear-gradient(45deg, rgba(102,83,125,1) 10%, rgba(153,58,199,1) 90%);
     height: 100vh;
+    background-image: url(./recursos/bannerBlur.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
 }
 a {
     text-decoration: none;
@@ -18,7 +21,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #4A1A6A;
+    background-color: #7B3DAE;
 }
 .menuInicioLista {
     display: flex;
@@ -154,6 +157,11 @@ a {
     flex-direction: column;
     flex-direction: row;
     justify-self: flex-end;
+}
+.compraPrecio{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .boton{
     border: none;

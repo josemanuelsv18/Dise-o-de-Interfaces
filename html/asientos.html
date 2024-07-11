@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ticketazo</title>
-    <link rel="stylesheet" href="./estilos/asientos.css">
+    <link rel="stylesheet" href="../estilos/asientos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -12,13 +12,14 @@
 <body>
     <header class="menuInicio">
         <ul class="menuInicioLista">
-            <li class="menuInicioListaElemento"><a href="homePage.html" class="menuElementoLink">Inicio</a>|<a href="#" class="menuElementoLink">Categorias</a></li>
+            <li class="menuInicioListaElemento"><a href="../homePage.html" class="menuElementoLink">Inicio</a>|<a href="#" class="menuElementoLink">Categorias</a></li>
             <li class="menuInicioListaElemento"><h1 class="titulo">Ticketazo</h1></li>
             <li class="menuInicioListaElemento"><a href="#" class="menuElementoLink">Iniciar sesion</a>|<a href="#" class="menuElementoLink">Registrarse</a></li>
         </ul>
     </header>
+    
     <div class="cuerpo">
-        <img src="./estilos/recursos/estadio.jpeg" alt="Distribuicion" class="distribuicion">
+        <img src="../estilos/recursos/estadio.jpeg" alt="Distribuicion" class="distribuicion">
         <div class="seleccion">
             <div class="seleccionPrincipal">
                 <h4 class="seleccionTitulo">Selecciona tu asiento</h4>
@@ -34,14 +35,15 @@
                         <label for="cantidad">Cantidad: </label>
                         <input type="number" name="cantidad" id="cantidad" min="1" max="100">  
                     </div>
-                    <input type="submit" name="enviar" id="enviar" class="boton">
+                    <button id="enviar" class="boton">Aceptar</button>
                 </div>
                 <div class="compra">
-                    <p>Total: $0.00</p>
+                    <div class="compraPrecio">Total: <p id="price">$0.00</p></div>
                     <a href="compra.html"><button type="button" class="boton">Continuar</button></a>
                 </div>    
             </div>
         </div>
     </div>
+    <script src="../scripts/asientos.js"></script>
 </body>
 </html>

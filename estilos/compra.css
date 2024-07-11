@@ -7,6 +7,10 @@
 body{
     margin: 0;
     height: 100vh;
+    background-image: url(./recursos/bannerBlur.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 a {
     text-decoration: none;
@@ -77,6 +81,7 @@ a {
     justify-content: space-evenly;
     width: 60%;
     height: 70vh;
+    background-color: #fff;
 }
 .formularioEnunciado{
     font-size: 24px;
@@ -136,6 +141,7 @@ a {
     justify-content: space-between;
     width: 33%;
     height: 70vh;
+    color: #fff;
 }
 .cartelera{
     display: flex;
@@ -146,7 +152,7 @@ a {
     display: inline-block;
 }
 .carteleraMarco{
-    border: 2px solid #7B3DAE;
+    border: 4px solid #7B3DAE;
     border-radius: 10px;
 }
 .carteleraImagen{
@@ -180,7 +186,7 @@ a {
 
     border: var(--b) solid #0000;
     --_g: #0000 90deg,var(--c) 0;
-    --_h: #0000 90deg, #fff 0;
+    --_h: #0000 90deg, rgba(0, 0, 0, 0) 0;
     --_p: var(--w) var(--w) border-box no-repeat;
     background:
     conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
@@ -191,4 +197,7 @@ a {
 }
 .descripcionPrecio{
     font-size: 24px;
+}
+p{
+    font-size: 36px;
 }

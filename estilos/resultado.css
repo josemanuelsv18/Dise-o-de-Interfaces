@@ -73,8 +73,8 @@ a {
     color: #7B3DAE;
 }
 .resultadosElemento:hover{
-    background-color: #7B3DAE;
-    color: white;
+    background-color: #BDA4E3;
+    color: black;
     cursor: pointer;
 }
 .resultadosElementoLink{
@@ -87,8 +87,8 @@ a {
     height: 100%;
 }
 .resultadosElementoLink:hover{
-    background-color: #7B3DAE;
-    color: white;
+    background-color: #BDA4E3;
+    color: black;
     cursor: pointer;
 }
 .descripcionTexto{

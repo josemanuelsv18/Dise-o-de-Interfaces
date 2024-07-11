@@ -7,3 +7,5 @@ Josemanuel Sifontes 20-70-7436
 Alison Vargas 8-1008-841
 Isalleth Sánchez 8-1015-1027
 Adrian Romero 8-999-2397
+
+Abrir el archivo homePage.html para ver de manera correcta el proyecto

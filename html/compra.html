@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ticketazo</title>
-        <link rel="stylesheet" href="./estilos/compra.css">
+        <link rel="stylesheet" href="../estilos/compra.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
     <body>
         <header class="menuInicio">
             <ul class="menuInicioLista">
-                <li class="menuInicioListaElemento"><a href="homePage.html" class="menuElementoLink">Inicio</a>|<a href="#" class="menuElementoLink">Categorias</a></li>
+                <li class="menuInicioListaElemento"><a href="../homePage.html" class="menuElementoLink">Inicio</a>|<a href="#" class="menuElementoLink">Categorias</a></li>
                 <li class="menuInicioListaElemento"><h1 class="titulo">Ticketazo</h1></li>
                 <li class="menuInicioListaElemento"><a href="#" class="menuElementoLink">Iniciar sesion</a>|<a href="#" class="menuElementoLink">Registrarse</a></li>
             </ul>
@@ -49,12 +49,12 @@
                     <input type="number" name="cantidad" id="cantidad" min="001" max="999" class="formularioInput">
                 </div>
                 
-                <a href="confirmacion.html" class="formularioBoton">Pagar</a> 
+                <a href="confirmacion.html" class="formularioBoton" id="botonPaga">Pagar</a> 
             </form>
             <div class="info">
                 <div class="cartelera">
                     <div class="carteleraMarco">
-                        <img src="./estilos/recursos/mora.jpeg" alt="promocional" class="carteleraImagen">
+                        <img src="../estilos/recursos/mora.jpeg" alt="promocional" class="carteleraImagen">
                     </div>
                     <h4 class="carteleraTitulo">Estela Tour - Mora</h4>
                 </div>
@@ -73,7 +73,7 @@
                     </p>
                 </div>
             </div>
-            
         </div>
+        <script src="../scripts/compra.js"></script>
     </body>
 </html>
