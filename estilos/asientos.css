@@ -6,6 +6,9 @@
 }
 body{
     margin: 0;
+    background: rgb(102,83,125);
+    background: linear-gradient(45deg, rgba(102,83,125,1) 10%, rgba(153,58,199,1) 90%);
+    height: 100vh;
 }
 a {
     text-decoration: none;
@@ -15,7 +18,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #7B3DAE;
+    background-color: #4A1A6A;
 }
 .menuInicioLista {
     display: flex;
@@ -78,6 +81,7 @@ a {
     justify-content: space-between;
     width: 25%;
     height: auto;
+    background-color: #fff;
 }
 .seleccionPrincipal{
     display: flex;
